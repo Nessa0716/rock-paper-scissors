@@ -68,7 +68,7 @@ function check(u, b) {
 
 function index(n, u, b, s) {
   document.getElementById("notif").innerHTML = `<div class="notification ${s} is-light" id="notif">
-    <button class="delete" id="deleteButton"></button>
+    <button class="delete" id="deleteButton">Reset</button>
     You choose: <span id="u">${u + " " + emoji[u]}</span>
     <br />
     Bot choose: <span id="bot">${b + " " + emoji[b]}</span>

@@ -1,9 +1,27 @@
 
 
 body {
+    background-color: #BBD6B8;
     display: flex;
     align-items: center;
     justify-content: center;
   }
+
   
-  
+
+  #background {
+    background-color: #376e4d; 
+  }
+
+  #rock {
+    width: 100px;
+    height: 100px;
+  }
+  #paper {
+    width: 100px;
+    height: 100px;
+  }
+  #scissors {
+    width: 100px;
+    height: 100px;
+  }
