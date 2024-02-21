@@ -62,3 +62,40 @@ s.addEventListener('click', function() {
     }
   }
   
+  
+
+function index(n, u, b, s) {
+    document.getElementById("notif").innerHTML = `<div class="notification ${s} is-light" id="notif">
+      <button class="delete" id="deleteButton"></button>
+      You choose: <span id="u">${u + " " + emoji[u]}</span>
+      <br />
+      Bot choose: <span id="bot">${b + " " + emoji[b]}</span>
+      <br />
+      <p class="has-text-centered">
+        <span id="state" class="has-text-weight-bold">${n}</span>
+      </p>
+    </div>`
+  
+
+    document.getElementById('deleteButton').addEventListener('click', function() {
+        document.getElementById('notif').innerHTML = ""
+        //document.getElementById("b").removeChild(document.getElementById('notif'))
+        //document.getElementById("b").appendChild(document.createElement('div')).id = "notif"
+      })
+    }
+    
+
+function score(u, b) {
+    var user = document.getElementById('user-score'),
+        bot = document.getElementById('bot-score');
+  
+  
+    if(u) {
+      var s = Number(user.textContent) + 1;
+      user.innerHTML = s
+    } else if(b) {
+      var s = Number(bot.textContent) + 1;
+      bot.innerHTML = s
+    }
+  }
+  
