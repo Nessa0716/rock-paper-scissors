@@ -34,3 +34,31 @@ s.addEventListener('click', function() {
   function check(u, b) {
     if(u == "rock" && b == "rock") {
       index('Tie!', u, b, 'is-warning')
+      score(false, false)
+    } else if(u == "rock" && b == "paper") {
+      index('You Lose!', u, b, 'is-danger')
+      score(false, true)
+    } else if(u == "rock" && b == "scissors") {
+      index('You Win!', u, b, 'is-primary')
+      score(true, false)
+    } else if(u == "paper" && b == "paper") {
+      index('Tie!', u, b, 'is-warning')
+      score(false, false)
+    } else if(u == "paper" && b == "scissors") {
+      index('You Lose!', u, b, 'is-danger')
+      score(false, true)
+    } else if(u == "paper" && b == "rock") {
+      index('You Win!', u, b, 'is-primary')
+      score(true, false)
+    } else if(u == "scissors" && b == "scissors") {
+      index('Tie!', u, b, 'is-warning')
+      score(false, false)
+    } else if(u == "scissors" && b == "rock") {
+      index('You Lose!', u, b, 'is-danger')
+      score(false, true)
+    } else if(u == "scissors" && b == "paper") {
+      index('You Win!', u, b, 'is-primary')
+      score(true, false)
+    }
+  }
+  
