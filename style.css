@@ -14,16 +14,43 @@ body {
   }
 
 
-  /* FIX IMGS WITH GABBY ON PHOTOSHOP */
+
   #rpng {
-    width: 50px;
-    height: 50px;
+    width: 200px;
+    height: 200px;
   }
   #ppng {
-    width: 50px;
-    height: 50px;
+    width: 200px;
+    height: 200px;
   }
   #spng {
-    width: 50px;
-    height: 50px;
+    width: 200px;
+    height: 200px;
   }
+
+#scissors {
+  cursor: pointer;
+  border: 1px solid #ffffff;
+  background-color: transparent;
+  height: 210px;
+  width: 220px;
+  box-shadow: 0 8px 5px rgba(0, 0, 0, 0.6);
+}
+
+#paper {
+  cursor: pointer;
+  border: 1px solid #ffffff;
+  background-color: transparent;
+  height: 210px;
+  width: 220px;
+  box-shadow: 0 8px 5px rgba(0, 0, 0, 0.6);
+}
+
+#rock {
+  cursor: pointer;
+  border: 1px solid #ffffff;
+  background-color: transparent;
+  height: 210px;
+  width: 220px;
+  box-shadow: 0 8px 5px rgba(0, 0, 0, 0.6);
+}
