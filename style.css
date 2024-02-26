@@ -1,0 +1,58 @@
+
+
+body {
+  background-color: #BBD6B8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+/* why wont background color work? */
+#background {
+  background-color: #376e4d; 
+}
+
+#you {
+  
+}
+
+#rpng {
+  width: 200px;
+  height: 200px;
+}
+#ppng {
+  width: 200px;
+  height: 200px;
+}
+#spng {
+  width: 200px;
+  height: 200px;
+}
+
+#scissors {
+cursor: pointer;
+border: 1px solid #ffffff;
+background-color: transparent;
+height: 210px;
+width: 220px;
+box-shadow: 0 8px 5px rgba(0, 0, 0, 0.6);
+}
+
+#paper {
+cursor: pointer;
+border: 1px solid #ffffff;
+background-color: transparent;
+height: 210px;
+width: 220px;
+box-shadow: 0 8px 5px rgba(0, 0, 0, 0.6);
+}
+
+#rock {
+cursor: pointer;
+border: 1px solid #ffffff;
+background-color: transparent;
+height: 210px;
+width: 220px;
+box-shadow: 0 8px 5px rgba(0, 0, 0, 0.6);
+}
