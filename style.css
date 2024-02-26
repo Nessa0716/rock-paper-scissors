@@ -1,20 +1,21 @@
 
 
 body {
-  background-color: #BBD6B8;
+  background-color: #92b98d !important;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 
-/* why wont background color work? */
-#background {
-  background-color: #376e4d; 
+
+#PLAYERBG {
+  background-color: #AEC2B6;
+  height: 600px;
 }
 
-#you {
-  
+#COMPUTERBG {
+  background-color: #94AF9F;
 }
 
 #rpng {
@@ -56,3 +57,5 @@ height: 210px;
 width: 220px;
 box-shadow: 0 8px 5px rgba(0, 0, 0, 0.6);
 }
+
+
