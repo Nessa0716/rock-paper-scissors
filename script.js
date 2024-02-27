@@ -71,7 +71,7 @@ function index(n, u, b, s) {
     <button class="delete" id="deleteButton">Reset</button>
     You choose: <span id="u">${u + " " + emoji[u]}</span>
     <br />
-    Bot choose: <span id="bot">${b + " " + emoji[b]}</span>
+    Computer choose: <span id="bot">${b + " " + emoji[b]}</span>
     <br />
     <p class="has-t            ext-centered">
       <span id="state" class="has-text-weight-bold">${n}</span>
@@ -100,3 +100,15 @@ function score(u, b) {
     bot.innerHTML = s
   }
 }
+
+
+// MADLIB
+
+let name = prompt("Enter Your Name To Get Started!");
+let story= `
+ ${name}
+`;
+let madLibOutputDiv = document.getElementById("madLibOutput");
+madLibOutputDiv.innerHTML = `<p>${story}</p>`;
+
+

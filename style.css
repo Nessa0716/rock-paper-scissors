@@ -1,10 +1,12 @@
-
-
+/* Problems to fix: 
+1) why wont my background color work?
+ */
 body {
-  background-color: #92b98d !important;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  background-color: #92b98d ;
+ 
+
+  font-family: 'Arial', sans-serif;
+
 }
 
 
@@ -30,6 +32,7 @@ body {
   width: 200px;
   height: 200px;
 }
+
 
 #scissors {
 cursor: pointer;
@@ -59,3 +62,27 @@ box-shadow: 0 8px 5px rgba(0, 0, 0, 0.6);
 }
 
 
+
+
+/* MADLIB CSS */
+
+
+#madlib {
+  width: 80%;
+  margin: 0 auto;
+  
+}
+
+.vanessa {
+  background-color: #DBE4C6;
+  color: #ffffff;
+  padding: 10px 0;
+  text-align: center;
+  font-family: 'Rubik Doodle Shadow', system-ui;
+}
+
+
+#madLibOutput {
+  text-align: center;
+
+}

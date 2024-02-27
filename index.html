@@ -16,11 +16,66 @@
 
 
 
+<!-- MADLIB CODE START -->
+
+
+ <!-- header section -->
+ <header class="text-white text-center py-2 vanessa">
+  <div id="madlib">
+    <h1 class="display-4">
+ Rock Paper Scissors
+    </h1>
+    <p class="lead">
+Can you beat your opponent?      </p>
+  </div>
+</header>
+<!-- main section -->
+
+    
+
+
+
+
+
+
+<!-- MADLIB CODE END -->
+
+
+
+
+
   <div class="container-fluid">
-    <div class="row">
+    <div class="row" id="b">
       <div class="col-lg-6" id="PLAYERBG">
         <img src="https://static.thenounproject.com/png/1279714-200.png" />
-        <h3 class="text-center">PLAYERS NAME (INPUT)</h3>
+        
+        
+        <div class="container my-4">
+          <h3><div id="madLibOutput" class="text-center">
+          <!-- Name will go here -->
+          </div></h3>
+
+          <div >
+            <div class="buttons is-centered">
+              <button type="button" id="rock">
+                <img src="https://letstalkscience.ca/sites/default/files/2020-02/balanced-stones-on-a-pebble-beach.jpg" id="rpng">
+              </button>
+              <button type="button" id="paper">
+                <img src="https://onplanners.com/sites/default/files/styles/template_teaser/public/template-images/printable-dotted-lined-paper-printables-635-mm-line-height-template.png" id="ppng">
+              </button>
+              <button type="button" id="scissors">
+                <img src="https://michelevarian.com/cdn/shop/products/ScissorsBlondeWood01_875x875.jpg?v=1611336630" id="spng">
+              </button>
+            </div>
+     
+     
+
+
+              </div>
+
+
+
+              
       </div>
       <div class="col-lg-6" id="COMPUTERBG">
         <img src="https://www.layoutit.com/img/sports-q-c-140-140-3.jpg" />
@@ -33,22 +88,9 @@
 
 
     <div>
-    <div id="b">
-        <div class="buttons is-centered">
-          <button type="button" id="rock">
-            <img src="https://letstalkscience.ca/sites/default/files/2020-02/balanced-stones-on-a-pebble-beach.jpg" id="rpng">
-          </button>
-          <button type="button" id="paper">
-            <img src="https://onplanners.com/sites/default/files/styles/template_teaser/public/template-images/printable-dotted-lined-paper-printables-635-mm-line-height-template.png" id="ppng">
-          </button>
-          <button type="button" id="scissors">
-            <img src="https://michelevarian.com/cdn/shop/products/ScissorsBlondeWood01_875x875.jpg?v=1611336630" id="spng">
-          </button>
-        </div>
- 
- 
+    
         <p class="has-text-centered mt-2">
-          You <span id="user-score">0</span> - <span id="bot-score">0</span> Bot
+          You <span id="user-score">0</span> - <span id="bot-score">0</span> Computer
         </p>
 
         <div id="notif"></div>
