@@ -101,6 +101,8 @@ box-shadow: 0 8px 5px rgba(0, 0, 0, 0.6);
 #scoreboard {
   text-align: center;
 }
-.centerbuttons {
-  text-align: center;
+#centerbuttons {
+  display:flex;
+  justify-content: center;
+  align-items: center;
 }
