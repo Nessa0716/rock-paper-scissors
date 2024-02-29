@@ -73,7 +73,7 @@ function index(n, u, b, s) {
     <br />
     Computer choose: <span id="bot">${b + " " + emoji[b]}</span>
     <br />
-    <p class="has-t            ext-centered">
+    <p class="has-text-centered">
       <span id="state" class="has-text-weight-bold">${n}</span>
     </p>
   </div>`

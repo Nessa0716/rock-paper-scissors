@@ -13,11 +13,17 @@ body {
 
 #PLAYERBG {
   background-color: #AEC2B6;
-  height: 600px;
+
 }
+
+#PLAYERIMG
 
 #COMPUTERBG {
   background-color: #94AF9F;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 #rpng {
@@ -69,6 +75,7 @@ box-shadow: 0 8px 5px rgba(0, 0, 0, 0.6);
 
 #madlib {
   width: 80%;
+  height: 15%;
   margin: 0 auto;
   
 }
@@ -85,4 +92,8 @@ box-shadow: 0 8px 5px rgba(0, 0, 0, 0.6);
 #madLibOutput {
   text-align: center;
 
+}
+
+#scoreboard {
+  text-align: center;
 }
