@@ -71,9 +71,9 @@ function index(n, u, b, s) {
     <button class="delete" id="deleteButton">Reset</button>
     You choose: <span id="u">${u + " " + emoji[u]}</span>
     <br />
-    Computer choose: <span id="bot">${b + " " + emoji[b]}</span>
+    Bot choose: <span id="bot">${b + " " + emoji[b]}</span>
     <br />
-    <p class="has-text-centered">
+    <p class="has-t            ext-centered">
       <span id="state" class="has-text-weight-bold">${n}</span>
     </p>
   </div>`

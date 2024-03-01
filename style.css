@@ -2,7 +2,7 @@
 1) why wont my background color work?
  */
 body {
-  background-color: #92b98d ;
+  background-color: #7d947b ;
  
 
   font-family: 'Arial', sans-serif;
@@ -88,7 +88,7 @@ box-shadow: 0 8px 5px rgba(0, 0, 0, 0.6);
   color: #ffffff;
   padding: 10px 0;
   text-align: center;
-  width: 80%;
+  width: 100%;
   font-family: 'Rubik Doodle Shadow', system-ui;
 }
 
